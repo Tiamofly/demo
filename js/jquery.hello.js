@@ -3,6 +3,7 @@
 		//注：此处还不能获取options
 
 		//所以这里可以进行一些如设置样式、绑定事件的事情
+		console.log("init");
 		$(target).css('cursor', 'pointer');
 
 		$(target).bind('click', function(e, preventBubble) {
